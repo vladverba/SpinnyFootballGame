@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		590B23A913A193B77382862E /* libPods-SpinnyFootball.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36768A857D8807718A17A4F3 /* libPods-SpinnyFootball.a */; };
+		E02F5AE21D35ED8500FBB0F8 /* TFootballSpinny1.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5ADC1D35ED8500FBB0F8 /* TFootballSpinny1.png */; };
+		E02F5AE31D35ED8500FBB0F8 /* tFootballSpinny2.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5ADD1D35ED8500FBB0F8 /* tFootballSpinny2.png */; };
+		E02F5AE41D35ED8500FBB0F8 /* tFootballSpinny3.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5ADE1D35ED8500FBB0F8 /* tFootballSpinny3.png */; };
+		E02F5AE51D35ED8500FBB0F8 /* tFootballSpinny4.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5ADF1D35ED8500FBB0F8 /* tFootballSpinny4.png */; };
+		E02F5AE61D35ED8500FBB0F8 /* tFootballSpinny5.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5AE01D35ED8500FBB0F8 /* tFootballSpinny5.png */; };
+		E02F5AE71D35ED8500FBB0F8 /* tFootballSpinny6.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5AE11D35ED8500FBB0F8 /* tFootballSpinny6.png */; };
+		E02F5AE91D35F8DA00FBB0F8 /* WhistleSpinny.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5AE81D35F8DA00FBB0F8 /* WhistleSpinny.png */; };
+		E02F5AEB1D36078A00FBB0F8 /* PocketWatch.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5AEA1D36078A00FBB0F8 /* PocketWatch.png */; };
+		E02F5AFB1D3DE5B600FBB0F8 /* GOSpinny.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5AFA1D3DE5B600FBB0F8 /* GOSpinny.png */; };
+		E02F5AFD1D3DE5BA00FBB0F8 /* NFL-Retry.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5AFC1D3DE5BA00FBB0F8 /* NFL-Retry.png */; };
+		E02F5AFF1D3DEAA800FBB0F8 /* SpinnyFootballLogo2.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5AFE1D3DEAA800FBB0F8 /* SpinnyFootballLogo2.png */; };
+		E02F5B011D3EE45D00FBB0F8 /* TTPLogoMaybe.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5B001D3EE45D00FBB0F8 /* TTPLogoMaybe.png */; };
+		E02F5B051D3F0CEF00FBB0F8 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F5B031D3F0CEF00FBB0F8 /* GoogleMobileAds.framework */; };
+		E02F5B061D3F0CEF00FBB0F8 /* Mediation Adapters in Resources */ = {isa = PBXBuildFile; fileRef = E02F5B041D3F0CEF00FBB0F8 /* Mediation Adapters */; };
+		E02F5B081D3F0D4C00FBB0F8 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F5B071D3F0D4C00FBB0F8 /* AdSupport.framework */; };
+		E02F5B0A1D3F0D5F00FBB0F8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F5B091D3F0D5F00FBB0F8 /* AudioToolbox.framework */; };
+		E02F5B0C1D3F0D6E00FBB0F8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F5B0B1D3F0D6E00FBB0F8 /* AVFoundation.framework */; };
+		E02F5B101D3F0E5400FBB0F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F5B0D1D3F0E5400FBB0F8 /* CoreGraphics.framework */; };
+		E02F5B111D3F0E5400FBB0F8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F5B0E1D3F0E5400FBB0F8 /* CoreMedia.framework */; };
+		E02F5B121D3F0E5400FBB0F8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F5B0F1D3F0E5400FBB0F8 /* CoreTelephony.framework */; };
+		E02F5B151D3F0E6900FBB0F8 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F5B131D3F0E6900FBB0F8 /* EventKit.framework */; };
+		E02F5B161D3F0E6900FBB0F8 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F5B141D3F0E6900FBB0F8 /* EventKitUI.framework */; };
+		E02F5B181D3F0E7A00FBB0F8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F5B171D3F0E7A00FBB0F8 /* MediaPlayer.framework */; };
+		E02F5B1A1D3F0F3100FBB0F8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F5B191D3F0F3100FBB0F8 /* MessageUI.framework */; };
+		E02F5B1C1D3F0F3F00FBB0F8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F5B1B1D3F0F3F00FBB0F8 /* StoreKit.framework */; };
+		E02F5B1E1D3F0F5200FBB0F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02F5B1D1D3F0F5200FBB0F8 /* SystemConfiguration.framework */; };
+		E02F5B341D3F365100FBB0F8 /* FootballSpinny1.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5B2E1D3F365100FBB0F8 /* FootballSpinny1.png */; };
+		E02F5B351D3F365100FBB0F8 /* FootballSpinny2.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5B2F1D3F365100FBB0F8 /* FootballSpinny2.png */; };
+		E02F5B361D3F365100FBB0F8 /* FootballSpinny3.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5B301D3F365100FBB0F8 /* FootballSpinny3.png */; };
+		E02F5B371D3F365100FBB0F8 /* FootballSpinny4.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5B311D3F365100FBB0F8 /* FootballSpinny4.png */; };
+		E02F5B381D3F365100FBB0F8 /* FootballSpinny5.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5B321D3F365100FBB0F8 /* FootballSpinny5.png */; };
+		E02F5B391D3F365100FBB0F8 /* FootballSpinny6.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5B331D3F365100FBB0F8 /* FootballSpinny6.png */; };
+		E02F5B3D1D40600300FBB0F8 /* HowToSpinny.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5B3C1D40600300FBB0F8 /* HowToSpinny.png */; };
+		E02F5B3F1D40615200FBB0F8 /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02F5B3E1D40615200FBB0F8 /* Instructions.swift */; };
+		E02F5B411D4077C100FBB0F8 /* Untitled-10.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5B401D4077C000FBB0F8 /* Untitled-10.png */; };
+		E02F5B431D40796E00FBB0F8 /* Untitled-11.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5B421D40796E00FBB0F8 /* Untitled-11.png */; };
+		E02F5B451D407C2200FBB0F8 /* LetsPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = E02F5B441D407C2200FBB0F8 /* LetsPlay.png */; };
+		E02F5B471D408B0100FBB0F8 /* BloopForFootball.wav in Resources */ = {isa = PBXBuildFile; fileRef = E02F5B461D408B0100FBB0F8 /* BloopForFootball.wav */; };
+		E02F5B4B1D408EC400FBB0F8 /* GameOverSpinnyFootball.wav in Resources */ = {isa = PBXBuildFile; fileRef = E02F5B4A1D408EC400FBB0F8 /* GameOverSpinnyFootball.wav */; };
+		E0417DB11D2F489D00CD9E03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0417DB01D2F489D00CD9E03 /* AppDelegate.swift */; };
+		E0417DB31D2F489D00CD9E03 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E0417DB21D2F489D00CD9E03 /* GameScene.sks */; };
+		E0417DB51D2F489D00CD9E03 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0417DB41D2F489D00CD9E03 /* GameScene.swift */; };
+		E0417DB71D2F489D00CD9E03 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0417DB61D2F489D00CD9E03 /* GameViewController.swift */; };
+		E0417DBA1D2F489D00CD9E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0417DB81D2F489D00CD9E03 /* Main.storyboard */; };
+		E0417DBC1D2F489D00CD9E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0417DBB1D2F489D00CD9E03 /* Assets.xcassets */; };
+		E0417DBF1D2F489D00CD9E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0417DBD1D2F489D00CD9E03 /* LaunchScreen.storyboard */; };
+		E0417DCA1D2F489D00CD9E03 /* SpinnyFootballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0417DC91D2F489D00CD9E03 /* SpinnyFootballTests.swift */; };
+		E0417DD51D2F489D00CD9E03 /* SpinnyFootballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0417DD41D2F489D00CD9E03 /* SpinnyFootballUITests.swift */; };
+		E0417DE31D2F491D00CD9E03 /* BackgroundWhack3.png in Resources */ = {isa = PBXBuildFile; fileRef = E0417DE21D2F491D00CD9E03 /* BackgroundWhack3.png */; };
+		E0417DE81D2F495D00CD9E03 /* FootballPS1.png in Resources */ = {isa = PBXBuildFile; fileRef = E0417DE41D2F495D00CD9E03 /* FootballPS1.png */; };
+		E0417DE91D2F495D00CD9E03 /* FootballPS2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0417DE51D2F495D00CD9E03 /* FootballPS2.png */; };
+		E0417DEA1D2F495D00CD9E03 /* FootballPS3.png in Resources */ = {isa = PBXBuildFile; fileRef = E0417DE61D2F495D00CD9E03 /* FootballPS3.png */; };
+		E0417DEB1D2F495D00CD9E03 /* FootballPS4.png in Resources */ = {isa = PBXBuildFile; fileRef = E0417DE71D2F495D00CD9E03 /* FootballPS4.png */; };
+		E0417DED1D2F496F00CD9E03 /* NoAdsWhack.png in Resources */ = {isa = PBXBuildFile; fileRef = E0417DEC1D2F496F00CD9E03 /* NoAdsWhack.png */; };
+		E0417DEF1D2F497400CD9E03 /* PlayHelmet.png in Resources */ = {isa = PBXBuildFile; fileRef = E0417DEE1D2F497400CD9E03 /* PlayHelmet.png */; };
+		E0417DF11D2F497800CD9E03 /* ShareButtonWhack.png in Resources */ = {isa = PBXBuildFile; fileRef = E0417DF01D2F497800CD9E03 /* ShareButtonWhack.png */; };
+		E0417DF31D2F498200CD9E03 /* SpinnyFootball.png in Resources */ = {isa = PBXBuildFile; fileRef = E0417DF21D2F498200CD9E03 /* SpinnyFootball.png */; };
+		E0417DF51D2F498A00CD9E03 /* WhackMainMenuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = E0417DF41D2F498A00CD9E03 /* WhackMainMenuBackground.png */; };
+		E0417DF71D2F4A1A00CD9E03 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0417DF61D2F4A1A00CD9E03 /* MainMenuScene.swift */; };
+		E0417DF91D2F4A3B00CD9E03 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0417DF81D2F4A3B00CD9E03 /* GameOverScene.swift */; };
+		E0417DFB1D2F4C5400CD9E03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0417DFA1D2F4C5400CD9E03 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0417DC61D2F489D00CD9E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0417DA51D2F489D00CD9E03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0417DAC1D2F489D00CD9E03;
+			remoteInfo = SpinnyFootball;
+		};
+		E0417DD11D2F489D00CD9E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0417DA51D2F489D00CD9E03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0417DAC1D2F489D00CD9E03;
+			remoteInfo = SpinnyFootball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0E7393BF6D3AE27DE2E71F /* Pods-SpinnyFootball.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinnyFootball.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpinnyFootball/Pods-SpinnyFootball.debug.xcconfig"; sourceTree = "<group>"; };
+		36768A857D8807718A17A4F3 /* libPods-SpinnyFootball.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpinnyFootball.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02F5ADC1D35ED8500FBB0F8 /* TFootballSpinny1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TFootballSpinny1.png; sourceTree = "<group>"; };
+		E02F5ADD1D35ED8500FBB0F8 /* tFootballSpinny2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tFootballSpinny2.png; sourceTree = "<group>"; };
+		E02F5ADE1D35ED8500FBB0F8 /* tFootballSpinny3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tFootballSpinny3.png; sourceTree = "<group>"; };
+		E02F5ADF1D35ED8500FBB0F8 /* tFootballSpinny4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tFootballSpinny4.png; sourceTree = "<group>"; };
+		E02F5AE01D35ED8500FBB0F8 /* tFootballSpinny5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tFootballSpinny5.png; sourceTree = "<group>"; };
+		E02F5AE11D35ED8500FBB0F8 /* tFootballSpinny6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tFootballSpinny6.png; sourceTree = "<group>"; };
+		E02F5AE81D35F8DA00FBB0F8 /* WhistleSpinny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhistleSpinny.png; sourceTree = "<group>"; };
+		E02F5AEA1D36078A00FBB0F8 /* PocketWatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PocketWatch.png; sourceTree = "<group>"; };
+		E02F5AFA1D3DE5B600FBB0F8 /* GOSpinny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GOSpinny.png; sourceTree = "<group>"; };
+		E02F5AFC1D3DE5BA00FBB0F8 /* NFL-Retry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NFL-Retry.png"; sourceTree = "<group>"; };
+		E02F5AFE1D3DEAA800FBB0F8 /* SpinnyFootballLogo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpinnyFootballLogo2.png; sourceTree = "<group>"; };
+		E02F5B001D3EE45D00FBB0F8 /* TTPLogoMaybe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTPLogoMaybe.png; sourceTree = "<group>"; };
+		E02F5B031D3F0CEF00FBB0F8 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		E02F5B041D3F0CEF00FBB0F8 /* Mediation Adapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Mediation Adapters"; sourceTree = "<group>"; };
+		E02F5B071D3F0D4C00FBB0F8 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E02F5B091D3F0D5F00FBB0F8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E02F5B0B1D3F0D6E00FBB0F8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E02F5B0D1D3F0E5400FBB0F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E02F5B0E1D3F0E5400FBB0F8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E02F5B0F1D3F0E5400FBB0F8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E02F5B131D3F0E6900FBB0F8 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		E02F5B141D3F0E6900FBB0F8 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		E02F5B171D3F0E7A00FBB0F8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E02F5B191D3F0F3100FBB0F8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E02F5B1B1D3F0F3F00FBB0F8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E02F5B1D1D3F0F5200FBB0F8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E02F5B2E1D3F365100FBB0F8 /* FootballSpinny1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FootballSpinny1.png; sourceTree = "<group>"; };
+		E02F5B2F1D3F365100FBB0F8 /* FootballSpinny2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FootballSpinny2.png; sourceTree = "<group>"; };
+		E02F5B301D3F365100FBB0F8 /* FootballSpinny3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FootballSpinny3.png; sourceTree = "<group>"; };
+		E02F5B311D3F365100FBB0F8 /* FootballSpinny4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FootballSpinny4.png; sourceTree = "<group>"; };
+		E02F5B321D3F365100FBB0F8 /* FootballSpinny5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FootballSpinny5.png; sourceTree = "<group>"; };
+		E02F5B331D3F365100FBB0F8 /* FootballSpinny6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FootballSpinny6.png; sourceTree = "<group>"; };
+		E02F5B3C1D40600300FBB0F8 /* HowToSpinny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HowToSpinny.png; sourceTree = "<group>"; };
+		E02F5B3E1D40615200FBB0F8 /* Instructions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
+		E02F5B401D4077C000FBB0F8 /* Untitled-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-10.png"; sourceTree = "<group>"; };
+		E02F5B421D40796E00FBB0F8 /* Untitled-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-11.png"; sourceTree = "<group>"; };
+		E02F5B441D407C2200FBB0F8 /* LetsPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LetsPlay.png; sourceTree = "<group>"; };
+		E02F5B461D408B0100FBB0F8 /* BloopForFootball.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BloopForFootball.wav; sourceTree = "<group>"; };
+		E02F5B4A1D408EC400FBB0F8 /* GameOverSpinnyFootball.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOverSpinnyFootball.wav; sourceTree = "<group>"; };
+		E0417DAD1D2F489D00CD9E03 /* SpinnyFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinnyFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0417DB01D2F489D00CD9E03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0417DB21D2F489D00CD9E03 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E0417DB41D2F489D00CD9E03 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E0417DB61D2F489D00CD9E03 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E0417DB91D2F489D00CD9E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0417DBB1D2F489D00CD9E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0417DBE1D2F489D00CD9E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0417DC01D2F489D00CD9E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0417DC51D2F489D00CD9E03 /* SpinnyFootballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinnyFootballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0417DC91D2F489D00CD9E03 /* SpinnyFootballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnyFootballTests.swift; sourceTree = "<group>"; };
+		E0417DCB1D2F489D00CD9E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0417DD01D2F489D00CD9E03 /* SpinnyFootballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinnyFootballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0417DD41D2F489D00CD9E03 /* SpinnyFootballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnyFootballUITests.swift; sourceTree = "<group>"; };
+		E0417DD61D2F489D00CD9E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0417DE21D2F491D00CD9E03 /* BackgroundWhack3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundWhack3.png; sourceTree = "<group>"; };
+		E0417DE41D2F495D00CD9E03 /* FootballPS1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FootballPS1.png; sourceTree = "<group>"; };
+		E0417DE51D2F495D00CD9E03 /* FootballPS2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FootballPS2.png; sourceTree = "<group>"; };
+		E0417DE61D2F495D00CD9E03 /* FootballPS3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FootballPS3.png; sourceTree = "<group>"; };
+		E0417DE71D2F495D00CD9E03 /* FootballPS4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FootballPS4.png; sourceTree = "<group>"; };
+		E0417DEC1D2F496F00CD9E03 /* NoAdsWhack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoAdsWhack.png; sourceTree = "<group>"; };
+		E0417DEE1D2F497400CD9E03 /* PlayHelmet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayHelmet.png; sourceTree = "<group>"; };
+		E0417DF01D2F497800CD9E03 /* ShareButtonWhack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShareButtonWhack.png; sourceTree = "<group>"; };
+		E0417DF21D2F498200CD9E03 /* SpinnyFootball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpinnyFootball.png; sourceTree = "<group>"; };
+		E0417DF41D2F498A00CD9E03 /* WhackMainMenuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhackMainMenuBackground.png; sourceTree = "<group>"; };
+		E0417DF61D2F4A1A00CD9E03 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		E0417DF81D2F4A3B00CD9E03 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		E0417DFA1D2F4C5400CD9E03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F7AB1CB1B3CA96041A52D32B /* Pods-SpinnyFootball.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinnyFootball.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpinnyFootball/Pods-SpinnyFootball.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0417DAA1D2F489D00CD9E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02F5B1E1D3F0F5200FBB0F8 /* SystemConfiguration.framework in Frameworks */,
+				E02F5B1C1D3F0F3F00FBB0F8 /* StoreKit.framework in Frameworks */,
+				E02F5B1A1D3F0F3100FBB0F8 /* MessageUI.framework in Frameworks */,
+				E02F5B181D3F0E7A00FBB0F8 /* MediaPlayer.framework in Frameworks */,
+				E02F5B151D3F0E6900FBB0F8 /* EventKit.framework in Frameworks */,
+				E02F5B161D3F0E6900FBB0F8 /* EventKitUI.framework in Frameworks */,
+				E02F5B101D3F0E5400FBB0F8 /* CoreGraphics.framework in Frameworks */,
+				E02F5B111D3F0E5400FBB0F8 /* CoreMedia.framework in Frameworks */,
+				E02F5B121D3F0E5400FBB0F8 /* CoreTelephony.framework in Frameworks */,
+				E02F5B0C1D3F0D6E00FBB0F8 /* AVFoundation.framework in Frameworks */,
+				E02F5B0A1D3F0D5F00FBB0F8 /* AudioToolbox.framework in Frameworks */,
+				E02F5B081D3F0D4C00FBB0F8 /* AdSupport.framework in Frameworks */,
+				E02F5B051D3F0CEF00FBB0F8 /* GoogleMobileAds.framework in Frameworks */,
+				590B23A913A193B77382862E /* libPods-SpinnyFootball.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0417DC21D2F489D00CD9E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0417DCD1D2F489D00CD9E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA05EFFAB47AABAAC20CA99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A0E7393BF6D3AE27DE2E71F /* Pods-SpinnyFootball.debug.xcconfig */,
+				F7AB1CB1B3CA96041A52D32B /* Pods-SpinnyFootball.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7B58035D15EB2390E92C971 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E02F5B1D1D3F0F5200FBB0F8 /* SystemConfiguration.framework */,
+				E02F5B1B1D3F0F3F00FBB0F8 /* StoreKit.framework */,
+				E02F5B191D3F0F3100FBB0F8 /* MessageUI.framework */,
+				E02F5B171D3F0E7A00FBB0F8 /* MediaPlayer.framework */,
+				E02F5B131D3F0E6900FBB0F8 /* EventKit.framework */,
+				E02F5B141D3F0E6900FBB0F8 /* EventKitUI.framework */,
+				E02F5B0D1D3F0E5400FBB0F8 /* CoreGraphics.framework */,
+				E02F5B0E1D3F0E5400FBB0F8 /* CoreMedia.framework */,
+				E02F5B0F1D3F0E5400FBB0F8 /* CoreTelephony.framework */,
+				E02F5B0B1D3F0D6E00FBB0F8 /* AVFoundation.framework */,
+				E02F5B091D3F0D5F00FBB0F8 /* AudioToolbox.framework */,
+				E02F5B071D3F0D4C00FBB0F8 /* AdSupport.framework */,
+				36768A857D8807718A17A4F3 /* libPods-SpinnyFootball.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E02F5B021D3F0CBB00FBB0F8 /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				E02F5B031D3F0CEF00FBB0F8 /* GoogleMobileAds.framework */,
+				E02F5B041D3F0CEF00FBB0F8 /* Mediation Adapters */,
+			);
+			name = Admob;
+			sourceTree = "<group>";
+		};
+		E02F5B2D1D3F364400FBB0F8 /* Footballs */ = {
+			isa = PBXGroup;
+			children = (
+				E02F5B421D40796E00FBB0F8 /* Untitled-11.png */,
+				E02F5B401D4077C000FBB0F8 /* Untitled-10.png */,
+				E02F5B2E1D3F365100FBB0F8 /* FootballSpinny1.png */,
+				E02F5B2F1D3F365100FBB0F8 /* FootballSpinny2.png */,
+				E02F5B301D3F365100FBB0F8 /* FootballSpinny3.png */,
+				E02F5B311D3F365100FBB0F8 /* FootballSpinny4.png */,
+				E02F5B321D3F365100FBB0F8 /* FootballSpinny5.png */,
+				E02F5B331D3F365100FBB0F8 /* FootballSpinny6.png */,
+			);
+			name = Footballs;
+			sourceTree = "<group>";
+		};
+		E0417DA41D2F489D00CD9E03 = {
+			isa = PBXGroup;
+			children = (
+				E0417DAF1D2F489D00CD9E03 /* SpinnyFootball */,
+				E0417DC81D2F489D00CD9E03 /* SpinnyFootballTests */,
+				E0417DD31D2F489D00CD9E03 /* SpinnyFootballUITests */,
+				E0417DAE1D2F489D00CD9E03 /* Products */,
+				4AA05EFFAB47AABAAC20CA99 /* Pods */,
+				A7B58035D15EB2390E92C971 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0417DAE1D2F489D00CD9E03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0417DAD1D2F489D00CD9E03 /* SpinnyFootball.app */,
+				E0417DC51D2F489D00CD9E03 /* SpinnyFootballTests.xctest */,
+				E0417DD01D2F489D00CD9E03 /* SpinnyFootballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0417DAF1D2F489D00CD9E03 /* SpinnyFootball */ = {
+			isa = PBXGroup;
+			children = (
+				E02F5B021D3F0CBB00FBB0F8 /* Admob */,
+				E0417DFA1D2F4C5400CD9E03 /* GoogleService-Info.plist */,
+				E0417DB01D2F489D00CD9E03 /* AppDelegate.swift */,
+				E0417DB21D2F489D00CD9E03 /* GameScene.sks */,
+				E0417DB41D2F489D00CD9E03 /* GameScene.swift */,
+				E0417DF61D2F4A1A00CD9E03 /* MainMenuScene.swift */,
+				E0417DF81D2F4A3B00CD9E03 /* GameOverScene.swift */,
+				E0417DB61D2F489D00CD9E03 /* GameViewController.swift */,
+				E02F5B3E1D40615200FBB0F8 /* Instructions.swift */,
+				E0417DB81D2F489D00CD9E03 /* Main.storyboard */,
+				E0417DBB1D2F489D00CD9E03 /* Assets.xcassets */,
+				E02F5B3C1D40600300FBB0F8 /* HowToSpinny.png */,
+				E02F5B461D408B0100FBB0F8 /* BloopForFootball.wav */,
+				E02F5B4A1D408EC400FBB0F8 /* GameOverSpinnyFootball.wav */,
+				E02F5B2D1D3F364400FBB0F8 /* Footballs */,
+				E02F5B001D3EE45D00FBB0F8 /* TTPLogoMaybe.png */,
+				E02F5B441D407C2200FBB0F8 /* LetsPlay.png */,
+				E02F5AFE1D3DEAA800FBB0F8 /* SpinnyFootballLogo2.png */,
+				E02F5AFC1D3DE5BA00FBB0F8 /* NFL-Retry.png */,
+				E02F5AFA1D3DE5B600FBB0F8 /* GOSpinny.png */,
+				E02F5AEA1D36078A00FBB0F8 /* PocketWatch.png */,
+				E02F5AE81D35F8DA00FBB0F8 /* WhistleSpinny.png */,
+				E02F5ADC1D35ED8500FBB0F8 /* TFootballSpinny1.png */,
+				E02F5ADD1D35ED8500FBB0F8 /* tFootballSpinny2.png */,
+				E02F5ADE1D35ED8500FBB0F8 /* tFootballSpinny3.png */,
+				E02F5ADF1D35ED8500FBB0F8 /* tFootballSpinny4.png */,
+				E02F5AE01D35ED8500FBB0F8 /* tFootballSpinny5.png */,
+				E02F5AE11D35ED8500FBB0F8 /* tFootballSpinny6.png */,
+				E0417DE21D2F491D00CD9E03 /* BackgroundWhack3.png */,
+				E0417DE41D2F495D00CD9E03 /* FootballPS1.png */,
+				E0417DE51D2F495D00CD9E03 /* FootballPS2.png */,
+				E0417DE61D2F495D00CD9E03 /* FootballPS3.png */,
+				E0417DE71D2F495D00CD9E03 /* FootballPS4.png */,
+				E0417DEE1D2F497400CD9E03 /* PlayHelmet.png */,
+				E0417DEC1D2F496F00CD9E03 /* NoAdsWhack.png */,
+				E0417DF01D2F497800CD9E03 /* ShareButtonWhack.png */,
+				E0417DF21D2F498200CD9E03 /* SpinnyFootball.png */,
+				E0417DF41D2F498A00CD9E03 /* WhackMainMenuBackground.png */,
+				E0417DBD1D2F489D00CD9E03 /* LaunchScreen.storyboard */,
+				E0417DC01D2F489D00CD9E03 /* Info.plist */,
+			);
+			path = SpinnyFootball;
+			sourceTree = "<group>";
+		};
+		E0417DC81D2F489D00CD9E03 /* SpinnyFootballTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0417DC91D2F489D00CD9E03 /* SpinnyFootballTests.swift */,
+				E0417DCB1D2F489D00CD9E03 /* Info.plist */,
+			);
+			path = SpinnyFootballTests;
+			sourceTree = "<group>";
+		};
+		E0417DD31D2F489D00CD9E03 /* SpinnyFootballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0417DD41D2F489D00CD9E03 /* SpinnyFootballUITests.swift */,
+				E0417DD61D2F489D00CD9E03 /* Info.plist */,
+			);
+			path = SpinnyFootballUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0417DAC1D2F489D00CD9E03 /* SpinnyFootball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0417DD91D2F489D00CD9E03 /* Build configuration list for PBXNativeTarget "SpinnyFootball" */;
+			buildPhases = (
+				43F6A02980A858011AC73B79 /* [CP] Check Pods Manifest.lock */,
+				E0417DA91D2F489D00CD9E03 /* Sources */,
+				E0417DAA1D2F489D00CD9E03 /* Frameworks */,
+				E0417DAB1D2F489D00CD9E03 /* Resources */,
+				A1D33F7900054638E6DF79BB /* [CP] Embed Pods Frameworks */,
+				951F36AD67BFFA6985B8D72C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinnyFootball;
+			productName = SpinnyFootball;
+			productReference = E0417DAD1D2F489D00CD9E03 /* SpinnyFootball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0417DC41D2F489D00CD9E03 /* SpinnyFootballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0417DDC1D2F489D00CD9E03 /* Build configuration list for PBXNativeTarget "SpinnyFootballTests" */;
+			buildPhases = (
+				E0417DC11D2F489D00CD9E03 /* Sources */,
+				E0417DC21D2F489D00CD9E03 /* Frameworks */,
+				E0417DC31D2F489D00CD9E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0417DC71D2F489D00CD9E03 /* PBXTargetDependency */,
+			);
+			name = SpinnyFootballTests;
+			productName = SpinnyFootballTests;
+			productReference = E0417DC51D2F489D00CD9E03 /* SpinnyFootballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0417DCF1D2F489D00CD9E03 /* SpinnyFootballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0417DDF1D2F489D00CD9E03 /* Build configuration list for PBXNativeTarget "SpinnyFootballUITests" */;
+			buildPhases = (
+				E0417DCC1D2F489D00CD9E03 /* Sources */,
+				E0417DCD1D2F489D00CD9E03 /* Frameworks */,
+				E0417DCE1D2F489D00CD9E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0417DD21D2F489D00CD9E03 /* PBXTargetDependency */,
+			);
+			name = SpinnyFootballUITests;
+			productName = SpinnyFootballUITests;
+			productReference = E0417DD01D2F489D00CD9E03 /* SpinnyFootballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0417DA51D2F489D00CD9E03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TapTapPlay;
+				TargetAttributes = {
+					E0417DAC1D2F489D00CD9E03 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NLF8UWRXLD;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					E0417DC41D2F489D00CD9E03 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = E0417DAC1D2F489D00CD9E03;
+					};
+					E0417DCF1D2F489D00CD9E03 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = E0417DAC1D2F489D00CD9E03;
+					};
+				};
+			};
+			buildConfigurationList = E0417DA81D2F489D00CD9E03 /* Build configuration list for PBXProject "SpinnyFootball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0417DA41D2F489D00CD9E03;
+			productRefGroup = E0417DAE1D2F489D00CD9E03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0417DAC1D2F489D00CD9E03 /* SpinnyFootball */,
+				E0417DC41D2F489D00CD9E03 /* SpinnyFootballTests */,
+				E0417DCF1D2F489D00CD9E03 /* SpinnyFootballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0417DAB1D2F489D00CD9E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02F5B381D3F365100FBB0F8 /* FootballSpinny5.png in Resources */,
+				E02F5B471D408B0100FBB0F8 /* BloopForFootball.wav in Resources */,
+				E02F5B361D3F365100FBB0F8 /* FootballSpinny3.png in Resources */,
+				E02F5B351D3F365100FBB0F8 /* FootballSpinny2.png in Resources */,
+				E0417DB31D2F489D00CD9E03 /* GameScene.sks in Resources */,
+				E0417DE91D2F495D00CD9E03 /* FootballPS2.png in Resources */,
+				E02F5AE31D35ED8500FBB0F8 /* tFootballSpinny2.png in Resources */,
+				E0417DED1D2F496F00CD9E03 /* NoAdsWhack.png in Resources */,
+				E0417DE31D2F491D00CD9E03 /* BackgroundWhack3.png in Resources */,
+				E02F5B3D1D40600300FBB0F8 /* HowToSpinny.png in Resources */,
+				E02F5B411D4077C100FBB0F8 /* Untitled-10.png in Resources */,
+				E0417DFB1D2F4C5400CD9E03 /* GoogleService-Info.plist in Resources */,
+				E02F5AE51D35ED8500FBB0F8 /* tFootballSpinny4.png in Resources */,
+				E02F5AFD1D3DE5BA00FBB0F8 /* NFL-Retry.png in Resources */,
+				E02F5AEB1D36078A00FBB0F8 /* PocketWatch.png in Resources */,
+				E0417DF51D2F498A00CD9E03 /* WhackMainMenuBackground.png in Resources */,
+				E02F5B061D3F0CEF00FBB0F8 /* Mediation Adapters in Resources */,
+				E0417DEA1D2F495D00CD9E03 /* FootballPS3.png in Resources */,
+				E02F5B371D3F365100FBB0F8 /* FootballSpinny4.png in Resources */,
+				E02F5B341D3F365100FBB0F8 /* FootballSpinny1.png in Resources */,
+				E02F5AE41D35ED8500FBB0F8 /* tFootballSpinny3.png in Resources */,
+				E02F5AE61D35ED8500FBB0F8 /* tFootballSpinny5.png in Resources */,
+				E02F5B451D407C2200FBB0F8 /* LetsPlay.png in Resources */,
+				E02F5B011D3EE45D00FBB0F8 /* TTPLogoMaybe.png in Resources */,
+				E02F5B4B1D408EC400FBB0F8 /* GameOverSpinnyFootball.wav in Resources */,
+				E0417DBF1D2F489D00CD9E03 /* LaunchScreen.storyboard in Resources */,
+				E02F5AE91D35F8DA00FBB0F8 /* WhistleSpinny.png in Resources */,
+				E02F5AE21D35ED8500FBB0F8 /* TFootballSpinny1.png in Resources */,
+				E0417DEB1D2F495D00CD9E03 /* FootballPS4.png in Resources */,
+				E0417DBC1D2F489D00CD9E03 /* Assets.xcassets in Resources */,
+				E02F5AE71D35ED8500FBB0F8 /* tFootballSpinny6.png in Resources */,
+				E0417DF31D2F498200CD9E03 /* SpinnyFootball.png in Resources */,
+				E02F5B431D40796E00FBB0F8 /* Untitled-11.png in Resources */,
+				E0417DF11D2F497800CD9E03 /* ShareButtonWhack.png in Resources */,
+				E0417DBA1D2F489D00CD9E03 /* Main.storyboard in Resources */,
+				E02F5AFF1D3DEAA800FBB0F8 /* SpinnyFootballLogo2.png in Resources */,
+				E0417DE81D2F495D00CD9E03 /* FootballPS1.png in Resources */,
+				E0417DEF1D2F497400CD9E03 /* PlayHelmet.png in Resources */,
+				E02F5B391D3F365100FBB0F8 /* FootballSpinny6.png in Resources */,
+				E02F5AFB1D3DE5B600FBB0F8 /* GOSpinny.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0417DC31D2F489D00CD9E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0417DCE1D2F489D00CD9E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43F6A02980A858011AC73B79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		951F36AD67BFFA6985B8D72C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpinnyFootball/Pods-SpinnyFootball-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D33F7900054638E6DF79BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpinnyFootball/Pods-SpinnyFootball-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0417DA91D2F489D00CD9E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0417DF91D2F4A3B00CD9E03 /* GameOverScene.swift in Sources */,
+				E0417DB51D2F489D00CD9E03 /* GameScene.swift in Sources */,
+				E0417DB71D2F489D00CD9E03 /* GameViewController.swift in Sources */,
+				E0417DF71D2F4A1A00CD9E03 /* MainMenuScene.swift in Sources */,
+				E02F5B3F1D40615200FBB0F8 /* Instructions.swift in Sources */,
+				E0417DB11D2F489D00CD9E03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0417DC11D2F489D00CD9E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0417DCA1D2F489D00CD9E03 /* SpinnyFootballTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0417DCC1D2F489D00CD9E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0417DD51D2F489D00CD9E03 /* SpinnyFootballUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0417DC71D2F489D00CD9E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0417DAC1D2F489D00CD9E03 /* SpinnyFootball */;
+			targetProxy = E0417DC61D2F489D00CD9E03 /* PBXContainerItemProxy */;
+		};
+		E0417DD21D2F489D00CD9E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0417DAC1D2F489D00CD9E03 /* SpinnyFootball */;
+			targetProxy = E0417DD11D2F489D00CD9E03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0417DB81D2F489D00CD9E03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0417DB91D2F489D00CD9E03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0417DBD1D2F489D00CD9E03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0417DBE1D2F489D00CD9E03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0417DD71D2F489D00CD9E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0417DD81D2F489D00CD9E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0417DDA1D2F489D00CD9E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A0E7393BF6D3AE27DE2E71F /* Pods-SpinnyFootball.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NLF8UWRXLD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpinnyFootball",
+				);
+				INFOPLIST_FILE = SpinnyFootball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taptapplay.Football;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E0417DDB1D2F489D00CD9E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7AB1CB1B3CA96041A52D32B /* Pods-SpinnyFootball.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NLF8UWRXLD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpinnyFootball",
+				);
+				INFOPLIST_FILE = SpinnyFootball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taptapplay.Football;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E0417DDD1D2F489D00CD9E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SpinnyFootballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taptapplay.SpinnyFootballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpinnyFootball.app/SpinnyFootball";
+			};
+			name = Debug;
+		};
+		E0417DDE1D2F489D00CD9E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpinnyFootballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taptapplay.SpinnyFootballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpinnyFootball.app/SpinnyFootball";
+			};
+			name = Release;
+		};
+		E0417DE01D2F489D00CD9E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SpinnyFootballUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taptapplay.SpinnyFootballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpinnyFootball;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E0417DE11D2F489D00CD9E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpinnyFootballUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taptapplay.SpinnyFootballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpinnyFootball;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0417DA81D2F489D00CD9E03 /* Build configuration list for PBXProject "SpinnyFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0417DD71D2F489D00CD9E03 /* Debug */,
+				E0417DD81D2F489D00CD9E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0417DD91D2F489D00CD9E03 /* Build configuration list for PBXNativeTarget "SpinnyFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0417DDA1D2F489D00CD9E03 /* Debug */,
+				E0417DDB1D2F489D00CD9E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0417DDC1D2F489D00CD9E03 /* Build configuration list for PBXNativeTarget "SpinnyFootballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0417DDD1D2F489D00CD9E03 /* Debug */,
+				E0417DDE1D2F489D00CD9E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0417DDF1D2F489D00CD9E03 /* Build configuration list for PBXNativeTarget "SpinnyFootballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0417DE01D2F489D00CD9E03 /* Debug */,
+				E0417DE11D2F489D00CD9E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0417DA51D2F489D00CD9E03 /* Project object */;
+}
